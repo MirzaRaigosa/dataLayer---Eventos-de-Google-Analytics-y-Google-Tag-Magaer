@@ -66,12 +66,12 @@ export function trackExpressConfirmarPagarClick(
 
 ### Beneficios Técnicos y de Negocio Entregados
 * **Construcción del Funnel de Conversión:** Habilitación de datos para graficar todo el flujo transaccional.
-* **Segmentación de Experiencias:** Diferenciación clara entre flujos de compra Express y Multicategoría.
+* **Segmentación de Experiencias:** Diferenciación clara entre flujos de compra.
 * **Mapeo del Abandono (Drop-off):** Localización exacta del paso donde los usuarios abandonan el proceso.
 * **Optimización de Conversión (CRO):** Datos listos para reducir la fricción en el checkout.
 * **Detección de Errores Críticos:** Identificación de fallas operativas en pasos como la validación OTP.
 
 ### Cumplimiento de Criterios de Aceptación (Alineación con el Negocio)
-* **Visualización en Tiempo Real:** El equipo de Botón de Pago consulta el embudo de forma autónoma.
+* **Visualización en Tiempo Real:** El equipo debe consultar el embudo de forma autónoma.
 * **Diagnóstico de Fricción:** Capacidad de identificar si el usuario se detiene por usabilidad o fallas del sistema.
 * **Decisiones Basadas en Datos:** Datos estructurados para que el equipo de producto priorice mejoras en la app.
