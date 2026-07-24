@@ -2,16 +2,16 @@
 # Implementación de Data Layer para Eventos de Google
 Implementación de Data Layer y eventos personalizados para Google Tag Manager y Google Analytics 
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto consiste en el diseño e implementación de una capa de datos (Data Layer) personalizada para capturar el comportamiento de los usuarios en el sitio web. La estructura fue creada en un entorno de desarrollo moderno para integrarse de forma limpia con Google Tag Manager (GTM) y enviar datos precisos a Google Analytics 4 (GA4).
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 * **Lenguajes:** TypeScript (TS)
 * **Arquitectura:** Node.js / Arquitectura Microfrontend
 * **Herramientas de Analítica:** Google Tag Manager (GTM) & Google Analytics 4 (GA4) E-commerce Standard
 * **Control de Versiones:** Git & GitHub
 
-## 📊 Arquitectura de Eventos Implementados
+## Arquitectura de Eventos Implementados
 
 ### 1. Tipos de Eventos Principales (`event`)
 
@@ -35,7 +35,7 @@ Este proyecto consiste en el diseño e implementación de una capa de datos (Dat
 | `begin_checkout` | Inicio formal del proceso de checkout |
 | `purchase` | Compra o pago exitoso de la transacción (Incluye flujo express) |
 
-## 💻 Ejemplo de Código de la Capa de Datos (TypeScript)
+## Ejemplo de Código de la Capa de Datos (TypeScript)
 Para asegurar el tipado de los datos y enviar la información estructurada a Google Tag Manager, se desarrolló la siguiente arquitectura de funciones de rastreo:
 
 ```typescript
@@ -62,7 +62,7 @@ export function trackExpressConfirmarPagarClick(
 }
 ```
 
-## 🎯 Impacto del Proyecto
+## Impacto del Proyecto
 
 ### Beneficios Técnicos y de Negocio Entregados
 * **Construcción del Funnel de Conversión:** Habilitación de datos para graficar todo el flujo transaccional.
